@@ -1,0 +1,11 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea/
+.vs/
+
+/src/Thingsboard.Net.Flurl/thingsboard.net.flurl/
+/src/Thingsboard.Net.Abstractions/thingsboard.net.abstractions/
+/src/Thingsboard.Net.Flurl.DependencyInjection/thingsboard.net.flurl.dependencyinjection/
