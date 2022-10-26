@@ -22,7 +22,6 @@
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <IncludeSymbols>True</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <!--error NU5017        <DebugType>embedded</DebugType>-->
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(APPVEYOR)' == 'true'">
