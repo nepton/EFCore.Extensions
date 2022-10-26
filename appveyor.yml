@@ -12,7 +12,7 @@ branches:
     - master
 
 only_commits:
-  message: /build/
+  message: /(build|publish)/
 #  files:
 #    - src/*
 
@@ -20,7 +20,7 @@ before_build:
 - cmd: >-
     dotnet --version
 
-    dotnet restore "LinqAsync.sln"
+    dotnet restore
 
 build_script:
 - cmd: >-
